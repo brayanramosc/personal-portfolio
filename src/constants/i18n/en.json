@@ -1,3 +1,6 @@
 {
-    "title": "Portfolio"
+    "title": "Portfolio",
+    "navItem1": "About",
+    "navItem2": "Projects",
+    "navItem3": "Contact"
 }
