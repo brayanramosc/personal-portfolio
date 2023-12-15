@@ -5,6 +5,8 @@ const variants: Variants = {
     open: {
         y: 0,
         opacity: 1,
+        pointerEvents: 'auto',
+        cursor: 'pointer',
         transition: {
             y: { stiffness: 1000, velocity: -100 }
         }
@@ -12,6 +14,8 @@ const variants: Variants = {
     closed: {
         y: 50,
         opacity: 0,
+        pointerEvents: 'none',
+        cursor: 'default',
         transition: {
             y: { stiffness: 1000 }
         }

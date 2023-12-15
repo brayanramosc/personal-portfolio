@@ -6,6 +6,17 @@ import { useLanguage } from "../../hooks";
 import spanishLogo from "../../assets/spain.png";
 import englishLogo from "../../assets/united-kingdom.png";
 
+const optVariants: Variants = {
+    open: {
+        pointerEvents: 'auto',
+        cursor: 'pointer'
+    },
+    closed: {
+        pointerEvents: 'none',
+        cursor: 'default'
+    }
+};
+
 const variants: Variants = {
     open: {
         y: 0,
@@ -36,20 +47,22 @@ const ConfigNavItems = ({ isDarkMode, setIsDarkMode }: ConfigNavItemsProps) => {
             className="flex flex-row gap-4 justify-center items-center"
             variants={variants}
         >
-            <div
+            <motion.div
                 className={`cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`}
                 onClick={() => setIsDarkMode((prevMode: boolean) => !prevMode)}
+                variants={optVariants}
             >
                 {isDarkMode
                     ? <CiLight size={20} />
                     : <MdOutlineDarkMode size={20} />
                 }
-            </div>
+            </motion.div>
 
             <motion.div className="cursor-pointer flex items-center dark:text-white">
-                <img
+                <motion.img
                     src={language === 'es' ? englishLogo : spanishLogo}
                     onClick={handleChangeLanguage}
+                    variants={optVariants}
                     alt="language_logo"
                 />
             </motion.div>
@@ -57,4 +70,4 @@ const ConfigNavItems = ({ isDarkMode, setIsDarkMode }: ConfigNavItemsProps) => {
     )
 }
 
-export default ConfigNavItems
+export default ConfigNavItems;
