@@ -2,5 +2,8 @@
     "title": "Portfolio",
     "navItem1": "About",
     "navItem2": "Projects",
-    "navItem3": "Contact"
+    "navItem3": "Contact",
+    "heading": "Hello there!",
+    "headingName": "I'm Brayan Ramos",
+    "headingSubtitle": "Software Developer"
 }
