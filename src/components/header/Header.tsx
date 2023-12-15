@@ -37,8 +37,8 @@ const Header = () => {
                             onClick={() => setIsDarkMode(prevMode => !prevMode)}
                         >
                             {isDarkMode
-                                ? <CiLight />
-                                : <MdOutlineDarkMode />
+                                ? <CiLight size={20} />
+                                : <MdOutlineDarkMode size={20} />
                             }
                         </div>
 
