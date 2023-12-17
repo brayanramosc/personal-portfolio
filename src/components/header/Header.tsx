@@ -19,13 +19,19 @@ const Header = () => {
     ]
 
     return (
-        <div className="px-10 py-5 bg-dark-mixed-100 bg-opacity-10">
+        <div 
+            className="
+                px-10 py-5 
+                bg-light-scheme-surface-low text-light-scheme-on-surface-variant
+                dark:bg-dark-scheme-surface-low dark:text-dark-scheme-on-surface-variant
+            "
+        >
             <div className="flex justify-between max-w-6xl mx-auto">
                 <img src={logo} alt="logo" width={50} className="h-[47px]" />
                 <div className="sm:flex hidden flex-row items-center gap-10">
                     <ul className="flex flex-row gap-6">
                         {menuOptions.map(opt =>
-                            <a key={opt.name} href={opt.path} className="cursor-pointer dark:text-white">
+                            <a key={opt.name} href={opt.path} className="cursor-pointer text-light-scheme-on-surface-variant dark:text-dark-scheme-on-surface-variant">
                                 {opt.name}
                             </a>
                         )}
@@ -33,7 +39,7 @@ const Header = () => {
 
                     <div className="flex flex-row gap-4 items-center">
                         <div
-                            className={`cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`}
+                            className={`cursor-pointer ${isDarkMode ? 'dark:text-dark-scheme-on-surface-variant' : 'text-light-scheme-on-surface-variant'}`}
                             onClick={() => setIsDarkMode(prevMode => !prevMode)}
                         >
                             {isDarkMode

@@ -51,7 +51,11 @@ const SideNavBar = ({ menuOptions, isDarkMode, setIsDarkMode }: SideNavBarProps)
             ref={containerRef}
         >
             <motion.div
-                className="top-0 right-0 bottom-0 h-screen min-w-[200px] absolute bg-dark-mixed-400 dark:bg-dark-mixed-200"
+                className="
+                    top-0 right-0 bottom-0 h-screen min-w-[200px] absolute 
+                    bg-light-scheme-surface-high text-light-scheme-on-surface-variant
+                    dark:bg-dark-scheme-surface-high dark:text-dark-scheme-on-surface-variant
+                "
                 variants={sidebar}
             />
 
