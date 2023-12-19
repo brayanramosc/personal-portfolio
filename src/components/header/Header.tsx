@@ -13,21 +13,23 @@ const Header = () => {
     const { isDarkMode, setIsDarkMode } = useThemeMode();
 
     const menuOptions = [
-        { name: t('navItem1'), path: '#' },
-        { name: t('navItem2'), path: '#' },
-        { name: t('navItem3'), path: '#' },
+        { name: t('navItem1'), path: '#about' },
+        { name: t('navItem2'), path: '#projects' },
+        { name: t('navItem3'), path: '#contact' },
     ]
 
     return (
-        <div 
+        <div
             className="
-                px-10 py-5 
+                px-10 py-5 fixed w-full
                 bg-light-scheme-surface-low text-light-scheme-on-surface-variant
                 dark:bg-dark-scheme-surface-low dark:text-dark-scheme-on-surface-variant
             "
         >
             <div className="flex justify-between max-w-6xl mx-auto">
-                <img src={logo} alt="logo" width={50} className="h-[47px]" />
+                <a href="#">
+                    <img src={logo} alt="logo" width={50} className="h-[47px]" />
+                </a>
                 <div className="sm:flex hidden flex-row items-center gap-10">
                     <ul className="flex flex-row gap-6">
                         {menuOptions.map(opt =>

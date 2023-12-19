@@ -5,5 +5,11 @@
     "navItem3": "Contacto",
     "heading": "!Hola!",
     "headingName": "Soy Brayan Ramos",
-    "headingSubtitle": "Desarrollador de software"
+    "headingSubtitle": "Desarrollador de software",
+    "aboutTitle": "Acerca de mí",
+    "aboutContent": "Ingeniero electrónico y desarrollador de software principalmente enfocado en desarrollo Frontend y con conocimientos de backend e inteligencia artificial. Me considero alguien apasionado por la tecnología y en constante búsqueda de conocimiento.",
+    "aboutHobbiesDesc": "Además de programar, otras actividades que disfruto son:",
+    "aboutHobbie1": "Videojuegos",
+    "aboutHobbie2": "Ver anime y series",
+    "aboutHobbie3": "Experimentar con lo aprendido en la carrera y con tecnologías nuevas"
 }

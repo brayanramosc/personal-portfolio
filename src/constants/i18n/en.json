@@ -5,5 +5,10 @@
     "navItem3": "Contact",
     "heading": "Hello there!",
     "headingName": "I'm Brayan Ramos",
-    "headingSubtitle": "Software Developer"
+    "headingSubtitle": "Software Developer",
+    "aboutContent": "Electronic engineer and software developer mainly focused on Frontend development with knowledge of Backend and artificial intelligence. I consider myself as someone passionate about technology and in constant search of knowledge.",
+    "aboutHobbiesDesc": "Besides coding, some other activities I enjoy are:",
+    "aboutHobbie1": "Playing videogames",
+    "aboutHobbie2": "Watching anime and series",
+    "aboutHobbie3": "Experimenting with what I learned in my career and new technologies"
 }
