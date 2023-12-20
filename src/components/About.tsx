@@ -11,33 +11,32 @@ const About = () => {
     ]
 
     return (
-        <div id="about" className="px-10 mt-60 pb-10">
-            <motion.section
-                initial={{ opacity: 0, y: 300 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: .5 }}
-                className="max-w-6xl mx-auto"
-            >
-                <h1 className="text-4xl mb-8 font-bold text-light-scheme-primary dark:text-dark-scheme-primary">
-                    {t('aboutTitle')}
-                </h1>
-                <p className="text-xl">
-                    {t('aboutContent')}
-                </p>
-                <p className="text-xl mt-8">
-                    {t('aboutHobbiesDesc')}
-                </p>
+        <motion.section
+            id="about"
+            initial={{ opacity: 0, y: 300 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: .5 }}
+            className="max-w-6xl mx-auto mt-60 pb-10"
+        >
+            <h1 className="text-4xl mb-8 font-bold text-light-scheme-primary dark:text-dark-scheme-primary">
+                {t('aboutTitle')}
+            </h1>
+            <p className="text-xl">
+                {t('aboutContent')}
+            </p>
+            <p className="text-xl mt-8">
+                {t('aboutHobbiesDesc')}
+            </p>
 
-                <ul className="ml-8 mt-4">
-                    {hobbieList.map(hobby =>
-                        <li key={hobby.id} className="text-xl list-disc">
-                            {hobby.name}
-                        </li>
-                    )}
-                </ul>
-            </motion.section>
-        </div>
+            <ul className="ml-8 mt-4">
+                {hobbieList.map(hobby =>
+                    <li key={hobby.id} className="text-xl list-disc">
+                        {hobby.name}
+                    </li>
+                )}
+            </ul>
+        </motion.section>
     )
 }
 

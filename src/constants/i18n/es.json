@@ -11,5 +11,14 @@
     "aboutHobbiesDesc": "Además de programar, otras actividades que disfruto son:",
     "aboutHobbie1": "Videojuegos",
     "aboutHobbie2": "Ver anime y series",
-    "aboutHobbie3": "Experimentar con lo aprendido en la carrera y con tecnologías nuevas"
+    "aboutHobbie3": "Experimentar con lo aprendido en la carrera y con tecnologías nuevas",
+    "contactTitle": "Contáctame",
+    "contactDesc": "!No dudes en ponerte en contacto conmigo para discutir cómo puedo contribuir a tu equipo o proyecto!",
+    "contactPlaceholder1": "Nombre",
+    "contactPlaceholder2": "Correo",
+    "contactPlaceholder3": "Asunto",
+    "contactPlaceholder4": "Mensaje",
+    "contactInputValidationMessage": "Completa este campo",
+    "contactSuccessEmailSent": "Mensaje enviado correctamente.",
+    "contactErrorEmailSent": "Ocurrió un error al enviar el correo. Intenta más tarde o contáctame por mis redes :D"
 }

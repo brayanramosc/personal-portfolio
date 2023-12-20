@@ -6,9 +6,19 @@
     "heading": "Hello there!",
     "headingName": "I'm Brayan Ramos",
     "headingSubtitle": "Software Developer",
+    "aboutTitle": "About me",
     "aboutContent": "Electronic engineer and software developer mainly focused on Frontend development with knowledge of Backend and artificial intelligence. I consider myself as someone passionate about technology and in constant search of knowledge.",
     "aboutHobbiesDesc": "Besides coding, some other activities I enjoy are:",
     "aboutHobbie1": "Playing videogames",
     "aboutHobbie2": "Watching anime and series",
-    "aboutHobbie3": "Experimenting with what I learned in my career and new technologies"
+    "aboutHobbie3": "Experimenting with what I learned in my career and new technologies",
+    "contactTitle": "Contact me",
+    "contactDesc": "Feel free to get in touch with me to discuss how I can contribute to your team or project!",
+    "contactPlaceholder1": "Name",
+    "contactPlaceholder2": "Email",
+    "contactPlaceholder3": "Subject",
+    "contactPlaceholder4": "Message",
+    "contactInputValidationMessage": "Complete this field",
+    "contactSuccessEmailSent": "Message sent successfully.",
+    "contactErrorEmailSent": "An error occurred sending the email. Try again later or contact me through my networks :D"
 }
