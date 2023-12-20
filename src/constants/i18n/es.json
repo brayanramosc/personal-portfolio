@@ -20,5 +20,7 @@
     "contactPlaceholder4": "Mensaje",
     "contactInputValidationMessage": "Completa este campo",
     "contactSuccessEmailSent": "Mensaje enviado correctamente.",
-    "contactErrorEmailSent": "Ocurrió un error al enviar el correo. Intenta más tarde o contáctame por mis redes :D"
+    "contactErrorEmailSent": "Ocurrió un error al enviar el correo. Intenta más tarde o contáctame por mis redes :D",
+    "footerTextMadeBy": "Hecho por",
+    "footerLinkMadeBy": "@brayanramosc"
 }

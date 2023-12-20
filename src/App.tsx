@@ -1,6 +1,6 @@
 import { Toaster } from "react-hot-toast";
 
-import { About, Contact, Header, Hero } from "./components";
+import { About, Contact, Footer, Header, Hero } from "./components";
 
 function App() {
   return (
@@ -13,11 +13,14 @@ function App() {
     >
       <Toaster />
       <Header />
+
       <main className="px-10 pb-10">
         <Hero />
         <About />
         <Contact />
       </main>
+
+      <Footer />
     </div>
   )
 }
