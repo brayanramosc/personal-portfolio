@@ -44,7 +44,7 @@ const ConfigNavItems = ({ isDarkMode, setIsDarkMode }: ConfigNavItemsProps) => {
 
     return (
         <motion.div
-            className="flex flex-row gap-4 justify-center items-center"
+            className="flex flex-row gap-4 justify-center items-center mt-6"
             variants={variants}
         >
             <motion.div

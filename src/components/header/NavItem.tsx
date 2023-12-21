@@ -33,7 +33,7 @@ const NavItem = ({ menuOption }: NavItemProps) => {
             variants={variants}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            className="cursor-pointer flex items-center dark:text-white"
+            className="cursor-pointer flex items-center dark:text-white font-semibold text-lg"
         >
             {menuOption.name}
         </motion.a>
