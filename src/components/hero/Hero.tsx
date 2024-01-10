@@ -9,7 +9,7 @@ const Hero = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="min-h-screen pt-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 sm:gap-5 items-center place-content-center">
+        <section className="min-h-[calc(100vh-80px)] max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 sm:gap-5 items-center place-content-center">
             <aside className="flex flex-col justify-center">
                 <motion.h1
                     className="text-5xl sm:text-6xl font-semibold"
@@ -22,7 +22,7 @@ const Hero = () => {
                 </motion.h1>
 
                 <motion.div
-                    className="flex flex-col sm:flex-row gap-2"
+                    className="flex flex-col md:flex-row gap-2"
                     initial={{ opacity: 0, x: -200 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, delay: 1 }}

@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header
             className="
-                px-10 py-5 fixed w-full z-10
+                px-10 py-3 sticky w-full z-10 top-0
                 bg-light-scheme-surface-low text-light-scheme-on-surface-variant
                 dark:bg-dark-scheme-surface-low dark:text-dark-scheme-on-surface-variant
             "
