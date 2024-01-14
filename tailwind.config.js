@@ -30,7 +30,8 @@ export default {
         'on-surface-variant': '#49454e',
         'surface-container': '#F3EDF7',
         'surface-low': '#F7F2FA',
-        'surface-high': '#ECE6F0'
+        'surface-high': '#ECE6F0',
+        'outline': '#79747E',
       },
       'dark-scheme': {
         'primary': '#cfbcff',
@@ -56,6 +57,7 @@ export default {
         'surface-container': '#211F26',
         'surface-low': '#1D1B20',
         'surface-high': '#2B2930',
+        'outline': '#938F99',
       }
     },
     extend: {},
