@@ -1,8 +1,10 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
+import { FaGolang } from "react-icons/fa6";
 import { GoDatabase } from "react-icons/go";
 import { SiTypescript } from "react-icons/si";
 import { useTranslation } from "react-i18next";
@@ -25,6 +27,8 @@ const skillItems = [
     { name: 'NextJS', icon: <TbBrandNextjs size={100} /> },
     { name: 'NodeJS', icon: <FaNodeJs size={100} /> },
     { name: 'SQL', icon: <GoDatabase size={100} /> },
+    { name: 'Python', icon: <FaPython size={100} /> },
+    { name: 'Golang', icon: <FaGolang size={100} /> },
 ]
 
 const Skills = () => {
