@@ -2,6 +2,7 @@ import { SiRedux, SiTypescript, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { useTranslation } from "react-i18next";
 import { FaReact } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 import { Project, Tag } from "./types";
 import ProjectCard from "./ProjectCard";
@@ -65,9 +66,15 @@ const Projects = () => {
             id="projects"
             className="max-w-6xl mx-auto -mt-30 pt-32 mb-10"
         >
-            <h2 className="text-4xl mb-6 font-bold text-light-scheme-primary dark:text-dark-scheme-primary">
+            <motion.h2
+                className="text-4xl mb-8 font-bold text-light-scheme-primary dark:text-dark-scheme-primary"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: .5 }}
+                viewport={{ once: true }}
+            >
                 {t('projectsTitle')}
-            </h2>
+            </motion.h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 {projects.map((project: Project) =>
