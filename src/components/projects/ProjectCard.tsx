@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import { Project } from "./types";
+import ProjectImage from "./ProjectImage";
 
 type ProjectCardProps = {
     project: Project,
@@ -15,9 +16,13 @@ const ProjectCard = ({ project, isGithubPublic = true }: ProjectCardProps) => {
         <motion.article
             className="
                 border border-solid border-light-scheme-outline dark:border-dark-scheme-outline
-                rounded-lg p-6 flex flex-col justify-between
+                rounded-lg p-6 flex flex-col justify-between shadow-xl
+                bg-light-scheme-surface-low
+                dark:bg-dark-scheme-surface-low
             "
-            whileHover={{ scale: 1.05, transition: { duration: 0.5 } }}
+            initial={{ y: 100 }}
+            whileInView={{ y: 0, transition: { duration: 0.25 } }}
+            viewport={{ once: true }}
         >
             <h3 className="
                     text-2xl mb-2
@@ -48,11 +53,7 @@ const ProjectCard = ({ project, isGithubPublic = true }: ProjectCardProps) => {
                 )}
             </ul>
 
-            <img
-                src={image}
-                alt="project image"
-                className="rounded shadow-2xl mb-6"
-            />
+            <ProjectImage image={image} projectName={title} />
 
             <div className="flex flex-row justify-end gap-4">
                 {isGithubPublic && <motion.a
