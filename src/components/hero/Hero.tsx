@@ -36,7 +36,7 @@ const Hero = () => {
                     </h1>
                 </motion.div>
 
-                <motion.h3
+                <motion.h2
                     className="text-3xl sm:text-4xl pt-10"
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0, transition: { duration: 0.3, type: 'just' } }}
@@ -44,7 +44,7 @@ const Hero = () => {
                     viewport={{ once: true }}
                 >
                     {t('headingSubtitle')}
-                </motion.h3>
+                </motion.h2>
 
                 <div className="flex flex-row gap-6 justify-start items-center mt-10">
                     <LinkButton

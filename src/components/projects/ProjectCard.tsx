@@ -60,6 +60,7 @@ const ProjectCard = ({ project, isGithubPublic = true }: ProjectCardProps) => {
                     href={githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Github"
                     whileHover={{ scale: 1.1 }}
                 >
                     <FaGithub size={20} />
@@ -68,6 +69,7 @@ const ProjectCard = ({ project, isGithubPublic = true }: ProjectCardProps) => {
                     href={demoLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Demo"
                     whileHover={{ scale: 1.1 }}
                 >
                     <FaExternalLinkAlt size={20} />

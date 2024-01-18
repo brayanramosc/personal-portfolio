@@ -28,10 +28,18 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-row gap-6 items-center">
-                    <a href="https://github.com/brayanramosc" target="_blank">
+                    <a
+                        href="https://github.com/brayanramosc"
+                        target="_blank"
+                        aria-label="Demo"
+                    >
                         <FaGithub size={20} />
                     </a>
-                    <a href="https://www.linkedin.com/in/brayan-ramos-caicedo/" target="_blank">
+                    <a
+                        href="https://www.linkedin.com/in/brayan-ramos-caicedo/"
+                        target="_blank"
+                        aria-label="Linkedin"
+                    >
                         <FaLinkedin size={20} />
                     </a>
                 </div>
