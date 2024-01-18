@@ -85,7 +85,7 @@ const Contact = () => {
                     src={contactImg}
                     alt={"contact"}
                     className="justify-self-end hidden lg:block"
-                    initial={{ opacity: 0, x: 50 }}
+                    initial={{ opacity: 0, x: 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: .5, delay: .25 * 4 }}
