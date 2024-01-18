@@ -36,8 +36,8 @@ export default {
       'dark-scheme': {
         'primary': '#cfbcff',
         'on-primary': '#381e72',
-        'primary-container': '#4f378a',
-        'on-primary-container': '#4f378a',
+        'primary-container': '#4F378B',
+        'on-primary-container': '#EADDFF',
         'secondary': '#CCC2DC',
         'on-secondary': '#332D41',
         'secondary-container': '#4A4458',
