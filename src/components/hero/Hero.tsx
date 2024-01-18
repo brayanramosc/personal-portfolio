@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaExternalLinkAlt } from "react-icons/fa";
 
 import programmingLogo from "../../assets/programming.svg";
 import LinkButton from "./LinkButton";
@@ -58,6 +58,12 @@ const Hero = () => {
                         href="https://www.linkedin.com/in/brayan-ramos-caicedo/"
                         delay={0.3}
                         Icon={<FaLinkedin size={25} />}
+                    />
+                    <LinkButton
+                        name="CV"
+                        href="https://udeaeduco-my.sharepoint.com/:b:/g/personal/brayan_ramos_udea_edu_co/Ea9wA6SqVhNBmEGpozl3QUkB6-eCFQeZmsw-zurE6T2w7A?e=UlCacx"
+                        delay={0.6}
+                        Icon={<FaExternalLinkAlt size={23} />}
                     />
                 </div>
             </aside>
