@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import profileImg from '../../assets/profile.webp';
 import Skills from "./Skills";
+import Experiences from "./Experiences";
 
 const About = () => {
     const { t } = useTranslation();
@@ -57,7 +58,8 @@ const About = () => {
                     </ul>
                 </section>
             </motion.article>
-
+            
+            <Experiences />
             <Skills />
         </section>
     )
