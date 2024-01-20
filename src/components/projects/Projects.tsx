@@ -1,4 +1,4 @@
-import { SiRedux, SiTypescript, SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiTypescript, SiTailwindcss, SiFirebase, SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { useTranslation } from "react-i18next";
 import { FaReact } from "react-icons/fa";
@@ -13,6 +13,14 @@ const TAGS: { [key: string]: Tag } = {
     'tailwind': { name: 'Tailwind', icon: <SiTailwindcss size={20} /> },
     'next': { name: 'NextJS', icon: <TbBrandNextjs size={20} /> },
     'redux': { name: 'Redux', icon: <SiRedux size={20} /> },
+    'firebase': { name: 'Firebase', icon: <SiFirebase size={20} /> },
+    'mongo': { name: 'MongoDB', icon: <SiMongodb size={20} /> },
+    'motion': {
+        name: 'Framer Motion',
+        icon: <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-framer-motion text-light-scheme-primary dark:text-dark-scheme-primary group-hover:text-light-scheme-on-primary dark:group-hover:text-dark-scheme-on-primary" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" id="motion-path" /><path d="M12 12l-8 -8v16l16 -16v16l-4 -4" /><path d="M20 12l-8 8l-4 -4" />
+        </svg>
+    },
 }
 
 const Projects = () => {
@@ -25,7 +33,7 @@ const Projects = () => {
             demoLink: 'https://pypconstruccioneseingenieria.com.co',
             githubLink: '',
             image: '/projects/p&p.webp',
-            tags: [TAGS.react, TAGS.typescript, TAGS.tailwind]
+            tags: [TAGS.react, TAGS.firebase, TAGS.tailwind]
         },
         {
             title: t('projectTitle4'),
@@ -33,7 +41,7 @@ const Projects = () => {
             demoLink: 'https://share-prompts-ten-orpin.vercel.app',
             githubLink: 'https://github.com/brayanramosc/share_prompts',
             image: '/projects/prompterino.webp',
-            tags: [TAGS.react, TAGS.typescript, TAGS.tailwind]
+            tags: [TAGS.react, TAGS.next, TAGS.mongo]
         },
         {
             title: t('projectTitle3'),
@@ -49,7 +57,7 @@ const Projects = () => {
             demoLink: 'https://anime-vault-two-taupe.vercel.app',
             githubLink: 'https://github.com/brayanramosc/anime_vault',
             image: '/projects/anime_vault.webp',
-            tags: [TAGS.react, TAGS.typescript, TAGS.tailwind]
+            tags: [TAGS.react, TAGS.typescript, TAGS.tailwind, TAGS.motion]
         },
         {
             title: t('projectTitle1'),
@@ -57,7 +65,7 @@ const Projects = () => {
             demoLink: '#',
             githubLink: 'https://github.com/brayanramosc/personal-portfolio',
             image: '/projects/portfolio.webp',
-            tags: [TAGS.react, TAGS.typescript, TAGS.tailwind]
+            tags: [TAGS.react, TAGS.typescript, TAGS.tailwind, TAGS.motion]
         },
     ]
 
