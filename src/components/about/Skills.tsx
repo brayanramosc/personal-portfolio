@@ -1,17 +1,11 @@
-import { FaHtml5 } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa6";
-import { FaGolang } from "react-icons/fa6";
-import { GoDatabase } from "react-icons/go";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiFirebase, SiTailwindcss, SiMongodb, SiMui } from "react-icons/si";
+import { FaHtml5, FaReact, FaGitAlt, FaPython, FaCss3Alt } from "react-icons/fa";
+import { FaNodeJs, FaGolang } from "react-icons/fa6";
+import { motion, useAnimation } from "framer-motion";
+import { IoLogoJavascript } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
-import { motion, useAnimation } from "framer-motion";
+import { GoDatabase } from "react-icons/go";
 
 import SkillCard from "./SkillCard";
 import { useWindowSize } from "../../hooks";
@@ -22,11 +16,14 @@ const skillItems = [
     { name: 'Javascript', icon: <IoLogoJavascript size={100} /> },
     { name: 'Typescript', icon: <SiTypescript size={100} /> },
     { name: 'React', icon: <FaReact size={100} /> },
+    { name: 'Material UI', icon: <SiMui size={100} /> },
     { name: 'Tailwind', icon: <SiTailwindcss size={100} /> },
     { name: 'Git', icon: <FaGitAlt size={100} /> },
     { name: 'NextJS', icon: <TbBrandNextjs size={100} /> },
     { name: 'NodeJS', icon: <FaNodeJs size={100} /> },
     { name: 'SQL', icon: <GoDatabase size={100} /> },
+    { name: 'MongoDB', icon: <SiMongodb size={100} /> },
+    { name: 'Firebase', icon: <SiFirebase size={100} /> },
     { name: 'Python', icon: <FaPython size={100} /> },
     { name: 'Golang', icon: <FaGolang size={100} /> },
 ]
