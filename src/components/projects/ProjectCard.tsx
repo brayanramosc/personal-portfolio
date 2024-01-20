@@ -40,7 +40,7 @@ const ProjectCard = ({ project, isGithubPublic = true }: ProjectCardProps) => {
                 {tags.map(tag =>
                     <li key={tag.name}>
                         <span className="
-                                flex items-center gap-x-2 rounded-full py-1 px-4 w-fit font-semibold
+                                flex group items-center gap-x-2 rounded-full py-1 px-4 w-fit font-semibold
                                 border border-solid border-light-scheme-outline dark:border-dark-scheme-outline
                                 text-light-scheme-primary hover:bg-light-scheme-primary hover:text-light-scheme-on-primary
                                 dark:text-dark-scheme-primary dark:hover:bg-dark-scheme-primary dark:hover:text-dark-scheme-on-primary
