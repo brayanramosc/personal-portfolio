@@ -50,6 +50,7 @@ const ProjectImage = ({ image, projectName }: PropjectImageProps) => {
                 layout
                 style={{ zIndex }}
                 onClick={() => setOpen(!isOpen)}
+                whileHover={{ scale: !isOpen ? 1.1 : 1 }}
                 onLayoutAnimationStart={handleLayoutAnimationStart}
                 onLayoutAnimationComplete={handleLayoutAnimationComplete}
                 transition={{ damping: 25, stiffness: 120, type: 'spring' }}
