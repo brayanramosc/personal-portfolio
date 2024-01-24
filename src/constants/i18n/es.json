@@ -39,6 +39,7 @@
     "contactPlaceholder2": "Correo",
     "contactPlaceholder3": "Asunto",
     "contactPlaceholder4": "Mensaje",
+    "contactButtonMessage": "Enviar mensaje",
     "contactInputValidationMessage": "Completa este campo",
     "contactSuccessEmailSent": "Mensaje enviado correctamente.",
     "contactErrorEmailSent": "Ocurrió un error al enviar el correo. Intenta más tarde o contáctame por mis redes :D",

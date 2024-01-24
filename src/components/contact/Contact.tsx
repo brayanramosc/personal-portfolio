@@ -77,7 +77,7 @@ const Contact = () => {
                         viewport={{ once: true }}
                         transition={{ duration: .5, delay: .25 * 4 }}
                     >
-                        Enviar mensaje
+                        {t('contactButtonMessage')}
                     </motion.button>
                 </form>
 
